@@ -4,37 +4,37 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Mulish", sans-serif;
+}
 .heading {
   /* border: 1px solid black; */
   display: inline-flex;
   text-align: center;
   justify-content: space-between;
   padding: 12px;
+  width: 100%;
 }
 
 .logo {
   /* border: 1px solid black; */
   display: inline;
-  margin-top: 30px;
-  margin-left: 60px;
+  margin: 30px 30px;
 }
 
 .texts ul {
   /* border: 1px solid black; */
-  width: 500px;
-  height: 50px;
+  width: 30rem;
   list-style: none;
   display: flex;
   gap: 36px;
   padding: 12px;
-  margin-top: 15px;
-  margin-left: 200px
+  margin: 30px 30px;
 }
 
 .texts ul li a {
   /* border: 1px solid black; */
-  font-family: "Mulish", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 500;
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -44,29 +44,98 @@
   /* border: 1px solid black; */
   display: flex;
   gap: 12px;
-  margin-top: 20px;
-  margin-left: 100px ;
+  margin: 30px 30px;
 }
 .enter {
-  width: 110px;
-  height: 40.8px;
+  /* border: 1px solid black; */
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
   border-radius: 3.6px;
   border: 1.2px solid rgba(8, 78, 183, 1);
   color: rgba(8, 78, 183, 1);
   background-color: white;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
-
+.enter:hover {
+  background: rgba(8, 78, 183, 1);
+  color: white;
+}
 .register {
+  /* border: 1px solid black; */
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: bold;
   background-color: rgba(8, 78, 183, 1);
-  width: 119px;
-  height: 40px;
   color: rgba(255, 255, 255, 1);
-  border: 1.2px solid rgba(8, 78, 183, 1);
+  border: none;
   border-radius: 3.6px;
   cursor: pointer;
+  margin-right: 20px;
+}
+.section {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.video-preview {
+  /* border: 1px solid black; */
+  width: 400px;
+  margin-left: 20px;
+}
+.container-img1 {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 400px;
+  object-fit: cover;
+}
+.img-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: justify;
+  margin-bottom: 5px;
 }
 
-#blue {
-color: rgba(8, 78, 183, 1);
+.img-author {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.img-stats {
+  font-size: 0.9rem;
+}
+
+.history {
+  /* border: 1px solid black; */
+  /* margin: 20px; */
+  width: 500px;
+}
+.sos-tour-head {
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.sos-tour-body {
+  text-align: justify;
+  margin: 0 0 10px 0;
+}
+.sos-tour {
+  display: inline-block;
+  /* margin-bottom: 10px; */
+  width: 500px;
+  object-fit: cover;
+}
+
+.wizkid-section {
+  margin-right:20px;
+  /* border: 1px solid black; */
+  width: 350px;
+  
+}
+.wizkid-cover-front {
+  width: 350px;
+  
+  object-fit: cover;
 }
