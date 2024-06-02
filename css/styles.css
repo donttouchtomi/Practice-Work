@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,7 +12,7 @@ body {
   /* border: 1px solid black; */
   display: inline-flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 12px;
   width: 100%;
 }
@@ -82,11 +82,13 @@ body {
 .section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: 20px; */
+  row-gap: 20px;
 }
 
 .one {
   /* background: lightblue; */
-  margin: 0 10px;
+  /* margin: 0 10px; */
 }
 
 .jorja_smith {
@@ -100,9 +102,9 @@ body {
 .title_1 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
-.author_1, .stats_1 {
+.body_1 {
   font-size: 1rem;
   color: grey;
 }
@@ -117,13 +119,21 @@ body {
 }
 .sza_info {
   text-align: center;
+    margin: 10px 10px;
 }
-.title_2 {
+
+/* .title_2 {
+  padding: 10px 0 0 0;
   text-decoration: underline;
 }
+.body_1 {
+  padding: 10px ;
+  font-size: 1rem;
+  color: grey;
+} */
 .three {
   /* background: lightpink; */
-  margin: 0 10px;
+  /* margin: 0 10px; */
 }
 .wizkid {
   object-fit: cover;
